@@ -10,9 +10,7 @@ class A{
         A(int x,int y,int z):x(x*z),y(y*z){
             cout<<"constructor called"<<endl;
         }
-        ~A(){
-            cout<<"destructor called"<<endl;
-        }
+        
         int x,y;
         
     
